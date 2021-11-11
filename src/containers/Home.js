@@ -9,10 +9,9 @@ import NavBar from '../components/NavBar';
 import WelcomeGraphic from '../components/WelcomeGraphic';
 import VerticalNav from '../components/VerticalNav';
 
-import { student_life_articles } from '../data/student_life_articles';
-import { beyond_campus_articles } from '../data/beyond_campus_articles';
-import { on_campus_articles } from '../data/on_campus_articles';
-import { resource_articles } from '../data/resource_articles';
+import { military } from '../data/military';
+import { rotc } from '../data/rotc';
+import { podcast } from "../data/podcast";
 
 const Wrapper1 = styled.div`
     background: url(https://backtocampus.s3.amazonaws.com/low_steps.jpg) rgba(37, 18, 130, .45);
@@ -126,25 +125,29 @@ const MobileNavWrap = styled.div`
 `;
 
 const Home = () => (
-    <>
-        <Wrapper1 id="home">
-            <NavBar />
-            <TextWrapper>
-                <Welcome>WELCOME</Welcome>
-                <Back>BACK</Back>
-                <Explore>Explore Spectator's Back to Campus Issue</Explore>
-                <MobileNavWrap>
-                    <VerticalNav color="white" current="home" />
-                </MobileNavWrap>
-            </TextWrapper>
-            <WelcomeGraphic />
-        </Wrapper1>
-        <Section id="student_life" header="STUDENT LIFE" color="#E4DDEE" articles={student_life_articles} />
-        <Section id="on_campus" header="ON CAMPUS" color="#FFC0A5" articles={on_campus_articles} />
-        <Section id="beyond_campus" header="BEYOND CAMPUS" color="#FFECA5" articles={beyond_campus_articles} />
-        <Section id="resources" header="RESOURCES" color="#C7D6FF" articles={resource_articles} />
-        <CreditsSec />
-    </>
+  <>
+    <Wrapper1 id="home">
+      <NavBar />
+      <TextWrapper>
+        <Welcome>WELCOME</Welcome>
+        <Back>BACK</Back>
+        <Explore>Explore Spectator's Back to Campus Issue</Explore>
+        <MobileNavWrap>
+          <VerticalNav color="white" current="home" />
+        </MobileNavWrap>
+      </TextWrapper>
+      <WelcomeGraphic />
+    </Wrapper1>
+    <Section
+      id="military"
+      header="Military"
+      color="#FFC0A5"
+      articles={military}
+    />
+    <Section id="rotc" header="ROTC" color="#FFECA5" articles={rotc} />
+    <Section id="podcast" header="podcast" color="#FFECA5" articles={podcast} />
+    <CreditsSec />
+  </>
 );
 
 export default Home;
