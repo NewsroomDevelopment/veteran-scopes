@@ -13,6 +13,7 @@ const SectionWrap1 = styled.div`
 `;
 
 const Wrapper2 = styled.div`
+    width: 100%;
     text-align: center;
 `;
 
