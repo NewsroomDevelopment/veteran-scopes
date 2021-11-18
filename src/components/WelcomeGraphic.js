@@ -51,22 +51,19 @@ const WelcomeGraphic = () => {
                     <a href="/#home">
                         <NavText x="-20" y="40">HOME</NavText>
                     </a>
-                    <a href="/#student_life">
-                        <NavText x="110" y="145">STUDENT LIFE</NavText>
+                    <a href="/#military">
+                        <NavText x="110" y="145">MILITARY</NavText>
                     </a>
-                    <a href="/#on_campus">
-                        <NavText x="210" y="-10" fill="white">ON CAMPUS</NavText>
+                    <a href="/#rotc">
+                        <NavText x="210" y="-10" fill="white">ROTC</NavText>
                     </a>
                     <path d="M6 58.6785C6 58.6785 30.6615 121.784 69 137.46C142.229 167.401 128.172 -2.51782 208.5 1.05562C259.955 3.34461 268.608 61.3013 320 64.5308C374.794 67.9741 447 22 447 22" stroke="white"/>
                     <circle r="5.5" transform="matrix(-1 0 0 1 5.5 57.5)" fill="white"/>
                 </Swirly>
                 <Illustration src="https://backtocampus.s3.amazonaws.com/low_steps.jpg" alt="Illustration of Low Library at Sunset" />
                 <Swirly width="433" height="300" viewBox="0 -30 433 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <a href="/#beyond_campus">
-                        <NavText x="20" y="-10" fill="white">BEYOND CAMPUS</NavText> 
-                    </a>
-                    <a href="/#resources">
-                        <NavText x="110" y="160" fill="white">RESOURCES</NavText>  
+                    <a href="/#podcast">
+                        <NavText x="20" y="-10" fill="white">PODCAST</NavText> 
                     </a>
                     <a href="/#credits">
                         <NavText x="350" y="125" fill="white">CREDITS</NavText> 
