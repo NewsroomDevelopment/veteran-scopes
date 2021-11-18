@@ -30,23 +30,17 @@ const NavBar = ({color, current}) => {
                 <a href="/#home">
                         <NavText x="0" y="-10" color={color} current={current === "home"}>HOME</NavText>
                 </a>
-                <a href="/#student_life">
+                <a href="/#military">
                         <NavText x="25" y="90" color={color} current={current === "student_life"}>
-                            <tspan x="25" dy="1.2em">STUDENT</tspan> 
-                            <tspan x="25" dy="1.2em">LIFE</tspan></NavText>
+                            <tspan x="25" dy="1.2em">MILITARY</tspan> </NavText>
                 </a>
-                <a href="/#on_campus">
+                <a href="/#rotc">
                         <NavText x="-55" y="180" color={color} current={current === "on_campus"}>
-                            <tspan x="-5" dy="1.2em">ON</tspan> 
-                            <tspan x="-45" dy="1.2em">CAMPUS</tspan></NavText>
+                            <tspan x="-25" dy="1.2em">ROTC</tspan></NavText>
                 </a>
-                <a href="/#beyond_campus">
+                <a href="/#podcast">
                         <NavText x="15" y="290" color={color} current={current === "beyond_campus"}>
-                            <tspan x="15" dy="1.2em">BEYOND</tspan> 
-                            <tspan x="15" dy="1.2em">CAMPUS</tspan></NavText>
-                </a>
-                <a href="/#resources">
-                        <NavText x="-50" y="400" color={color} current={current === "resources"}>RESOURCES</NavText>
+                            <tspan x="15" dy="1.2em">PODCAST</tspan> </NavText>
                 </a>
                 <a href="/#credits">
                         <NavText x="10" y="512" color={color} current={current === "credits"}>
