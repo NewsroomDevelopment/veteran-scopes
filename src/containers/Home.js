@@ -143,9 +143,10 @@ const Home = () => (
       header="Military"
       color="#FFC0A5"
       articles={military}
+      content = "GOTTEM"
     />
-    <Section id="rotc" header="ROTC" color="#FFECA5" articles={rotc} />
-    <Section id="podcast" header="podcast" color="#FFECA5" articles={podcast} />
+    <Section id="rotc" header="ROTC" color="#FFECA5" articles={rotc} content = "DEEZ"/>
+    <Section id="podcast" header="podcast" color="#FFECA5" articles={podcast} content ="NUTS"/>
     <CreditsSec />
   </>
 );
