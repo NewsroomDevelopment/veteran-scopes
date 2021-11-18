@@ -63,8 +63,20 @@ const MobileNavWrap = styled.div`
         }
 `;
 
+const TextStyle = styled.p`
+    
+`;
+const Content = styled.text`
+font-weight: 500;
+fill: white;
+letter-spacing: .1rem;
 
-const Section = ( { id, articles, header, color } ) => {
+:hover {
+    font-weight: bold;
+}
+`;
+
+const Section = ( { id, articles, header, color, content } ) => {
     return (
         <SectionWrap1 id={id} color={color}>
             <Wrapper2>
@@ -72,6 +84,7 @@ const Section = ( { id, articles, header, color } ) => {
                     <MobileNavBar color="#251282" current={id} />
                 </MobileNavWrap>
                 <Header>{header}</Header> 
+                <Content> {content}</Content>
                 <ArticlesWrap>
                     {articles.map(article => (
                         <ArticleBox article={article} />
