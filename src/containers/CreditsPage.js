@@ -75,152 +75,169 @@ const CreditsPage = () => {
                         <p>Elizabeth Karpen, Managing Editor</p>
                         <p>Tamarah Wallace, Publisher</p>
                     </SubDiv>
-
-                    <SubDiv>
-                        <h2>Design and Development</h2>
-                        <p>Erin McNulty, Head of Engineering</p>
-                        <p>Mirah Shi, Product Manager</p>
-                    </SubDiv>
-
-                    <SubDiv>
-                        <h2>Lead Illustration By</h2>
-                        <p>Liza Evseeva, Deputy Illustrations Editor</p>
-                    </SubDiv>
                 </Row>
                 <h1>Content</h1>
                 <Row>
                     <SubDiv>
                         <div>
-                            <h3>News</h3>
-                            <p>Dia Gill, News Editor</p>
-                            <p>Sofia Kwon, News Editor</p>
-                            <p>Abby Melbourne, Deputy News Editor</p>
-                            <p>Talia Abrahamson</p>
-                            <p>Faith Onyechere</p>
-                            <p>Lucy Brenner</p>
-                            <p>Katherine Nessel</p>
-                            <p>Maya Mitrasinovic</p>
-                            <p>Faith Andrews</p>
-                            <p>Stephanie Lai</p>
-                            <p>Octavio Galaviz</p>
-                            <p>Kathy Fang</p>
-                        </div>
-                        <div>
-                            <h3>Arts and Entertainment</h3>
-                            <p>Noah Sheidlower, A&E Editor</p>
-                            <p>Katie Levine, Deputy A&E Editor</p>
-                            <p>Bella Druckman, Deputy A&E Editor</p>
-                            <p>Olivia Doyle, Deputy A&E Editor</p>
-                            <p>Vincent Hou</p>
-                            <p>Esterah Brown</p>
-                        </div>
-                        <div>
-                            <h3>Illustrations</h3>
-                            <p>Brenda Huang, Illustrations Editor</p>
-                            <p>Ray Banke, Deputy Illustrations Editor</p>
-                            <p>Carlos Ochoa, Deputy Illustrations Editor</p>
-                            <p>Ashley Jiao, Deputy Illustrations Editor</p>
-                            <p>Noelle Hunter</p>
-                            <p>Julian Michaud</p>
-                            <p>Sadia Sharif</p>
-                            <p>Nicole Yang</p>
+                            <h3>Opinion</h3>
+                            <p>Ryan Oden, Editorial Page Editor</p>
+                            <p>Senem Yurdakul, Deputy Editorial Page Editor</p>
+                            <p>Lily Nathanson, Deputy Editorial Page Editor</p>
+                            <p>Karlton Gaskin, Deputy Editorial Page Editor</p>
+                            <p>Sean Conlon, Senior Associate Editorial Page Editor</p>
+                            <p>Eki Uzamere, Associate Editorial Page Editor</p>
+                            <p>Isabella Inouye, Associate Editorial Page Editor</p>
+                            <p>Julina Novarr, Associate Editorial Page Editor</p>
+                            <p>Julien Roa, Associate Editorial Page Editor</p>
+                            <p>Lauren Zhou, Associate Editorial Page Editor</p>
+                            <p>Maria Rice, Associate Editorial Page Editor</p>
+                            <p>Melanie Cheung, Associate Editorial Page Editor</p>
+                            <p>Michaela Fleischer, Associate Editorial Page Editor</p>
+                            <p>Milene Klein, Associate Editorial Page Editor</p>
+                            <p>Ruth Dejene, Associate Editorial Page Editor</p>
+                            <p>Sara Chough, Associate Editorial Page Editor</p>
+                            <p>Sydney Goldson, Associate Editorial Page Editor</p>
+                            <p>Tori Sproat, Associate Editorial Page Editor</p>
+                            <p>Celeste Ramirez, Associate Editorial Page Editor</p>
                         </div>
                         <div>
                             <h3>Photo</h3>
                             <p>Beatrice Shlansky, Photo Editor</p>
                             <p>Millie Felder, Deputy Photo Editor</p>
+                            <p>Samantha Camacho, Deputy Photo Editor</p>
                             <p>Kate Della Pietra, Deputy Photo Editor</p>
+                            <p>Rommel Nunez, Deputy Photo Editor</p>
                             <p>Elisabeth McLaughlin, Deputy Photo Editor</p>
-                            <p>Samantha Camacho</p>
-                            <p>Rommel Nunez</p>
+                            <p>Aliya Schneider, Senior Staff Photographer</p>
+                            <p>Gabi Levy, Staff Photographer</p>
+                            <p>Caitlyn Buckley, Staff Photographer</p>
+                            <p>Princeton Huang, Staff Photographer</p>
+                            <p>Shannon Binns, Columbia Daily Spectator</p>
+                            <p>Kat St. Martin, Columbia Daily Spectator</p>
+                            <p>Annie Son, Columbia Daily Spectator</p>
+                        </div>
+                        <div>
+                            <h3>Product Design</h3>
+                            <p>Cindy Espinosa, Head of Product</p>
+                            <p>Sagarika Sharma, Product Manager</p>
+                            <p>Ray Banke, Lead Product Designer</p>
+                            <p>Caroline Mao, Product Designer</p>
                         </div>
                     </SubDiv>
                     <SubDiv>
-                        <div>
-                            <h3>Opinion</h3>
-                            <p>Ryan Oden, Editorial Page Editor</p>
-                            <p>Gurtej Gill, Deputy Editorial Page Editor</p>
-                            <p>Senem Yurdakul, Deputy Editorial Page Editor</p>
-                            <p>Lily Nathanson, Deputy Editorial Page Editor</p>
-                            <p>Karlton Gaskin, Deputy Editorial Page Editor</p>
-                            <p>Hsinyen Huang, Deputy Editorial Page Editor</p>
-                            <p>Casey Qi</p>
-                            <p>Celeste Ramirez</p>
-                            <p>Sara Chough</p>
-                            <p>Isabella Inouye</p>
-                            <p>Danya Jafri</p>
-                            <p>John Towfighi</p>
-                            <p>Tamarah Wallace</p>
-                        </div>
-                        <div>
-                            <h3>Sports</h3>
-                            <p>Mackenzie George, Sports Editor</p>
-                            <p>Ence Morse, Sports Editor</p>
-                            <p>Matt Kim, Deputy Sports Editor</p>
-                            <p>Miles Schachner, Deputy Sports Editor</p>
-                            <p>Wick Hallos</p>
-                            <p>Bernard Wang</p>
-                            <p>Juliet Tochterman</p>
+                    <div>
+                            <h3>Illustrations</h3>
+                            <p>Cover Illustration: Taylor Yingshi, Staff Illustrator</p>
+                            <p>Brenda Huang, Illustrations Editor</p>
+                            <p>Yingjie Wang, Deputy Illustrations Editor</p>
+                            <p>Liza Evseeva, Deputy Illustrations Editor</p>
+                            <p>Carlos Ochoa, Deputy Illustrations Editor</p>
+                            <p>Ashley Jiao, Deputy Illustrations Editor</p>
+                            <p>Tina Wang, Staff Illustrator</p>
+                            <p>Katya Reichart, Staff Illustrator</p>
+                            <p>Magan Chin, Staff Illustrator</p>
+                            <p>Natalie Tak, Staff Illustrator</p>
+                            <p>Sadia Sharif, Staff Illustrator</p>
+                            <p>Marion Kamara, Staff Illustrator</p>
+                            <p>Tejasri Vijayakumar, Staff Illustrator</p>
+                            <p>Ji Yoon Sim, Staff Illustrator</p>
                         </div>
                         <div>
                             <h3>Graphics</h3>
                             <p>Jessica Li, Graphics Editor</p>
-                            <p>Charlotte Li, Graphics Deputy Editor</p>
-                            <p>Liz Commisso</p>
-                            <p>Raeedah Wahid</p>
+                            <p>Eleanor Lin, Columbia Daily Spectator</p>
+                            <p>Amanda Cassel, Columbia Daily Spectator</p>
+                            <p>Andrada Nicolae, Columbia Daily Spectator</p>
                         </div> 
                         <div>
                             <h3>Spectrum</h3>
-                            <p>Ariana Novo, Deputy Spectrum Editor</p>
-                            <p>Lina Bennani Karim, Deputy Spectrum Editor</p>
-                            <p>Jane Mok, Deputy Spectrum Editor</p>
-                            <p>Swethaa Suresh</p>
-                            <p>Jazilah Salam</p>
-                            <p>Nandini Talwar</p>
-                            <p>Charlotte Wu</p>
-                        </div>   
+                            <p>Ariana Novo, Spectrum Editor</p>
+                            <p>Swethaa Suresh, Deputy Spectrum Editor</p>
+                            <p>Haley Long, Deputy Spectrum Editor</p>
+                            <p>Aliza Rabinovitz, Deputy Spectrum Editor</p>
+                            <p>Emma Cho, Deputy Spectrum Editor</p>
+                            <p>Caroline Somers, Staff Writer</p>
+                            <p>Kenza Chraibi, Staff Writer</p>
+                            <p>Nour Kandil, Staff Writer</p>
+                            <p>Charlotte Wu, Staff Writer</p>
+                            <p>Fatma Al Aryani, Staff Writer</p>
+                            <p>Kylie Gall, Staff Writer</p>
+                            <p>Ross O'Brien, Staff Writer</p>
+                        </div>
+                        <div>
+                            <h3>A&E</h3>
+                            <p>Noah Sheidlower, A&E Editor</p>
+                            <p>Katie Levine, A&E Deputy Editor</p>
+                            <p>Olivia Doyle,  A&E Deputy Editor</p>
+                            <p>Bella Druckman, A&E Deputy Editor</p>
+                            <p>Sophie Craig, A&E Deputy Editor</p>
+                            <p>Isabella Farfan, A&E Staff Writer</p>
+                            <p>Daniela Miranda, A&E Staff Writer</p>
+                            <p>Jane Loughman, A&E Staff Writer</p>
+                            <p>Clare Donaldson, A&E Staff Writer</p>
+                            <p>Emma Danon, A&E Staff Writer</p>
+                            <p>Liz Radway, A&E Staff Writer</p>
+                            <p>Julia Tong, A&E Staff Writer</p>
+                            <p>Emily Chen, A&E Staff Writer</p>
+                        </div>
                     </SubDiv>
                     <SubDiv>
                         <div>
                             <h3>Copy</h3>
                             <p>Emma Bradbury, Head Copy Editor</p>
-                            <p>Fritzie Schwentker, Deputy Copy Editor</p>
-                            <p>Mabry Griffin, Deputy Copy Editor</p>
                             <p>Kaylene Chong, Deputy Copy Editor</p>
                             <p>Vincenzo DiNatale, Deputy Copy Editor</p>
-                            <p>Olivia Vella</p>
-                            <p>Carolyn Wang</p>
-                            <p>Harry Shi</p>
-                            <p>Jacob Kang</p>
-                            <p>Robyn Fohouo</p>
-                            <p>Katherine Carraway</p>
-                            <p>Rachel Borshchenko</p>
-                            <p>Jonah Pitkowsky</p>
-                            <p>Natalie Park</p>
-                            <p>Adeline Hu</p>
-                            <p>Maria Levit</p>
-                            <p>Eden Teferi</p>
-                            <p>Willa Nagy</p>
-                            <p>Alia Derriey</p>
-                            <p>Sam Barnett</p>
-                            <p>Kathryn Cherven</p>
-                            <p>Leif Wood</p>
-                            <p>Renuka Balakrishnan</p>
+                            <p>Mabry Griffin, Deputy Copy Editor</p>
+                            <p>Harry Shi, Deputy Copy Editor</p>
+                            <p>Robyn Fohouo, Deputy Copy Editor</p>
+                            <p>Olivia Vella, Deputy Copy Editor</p>
+                            <p>Renuka Balakrishnan, Associate Copy Editor</p>
+                            <p>Sam Barnett, Associate Copy Editor</p>
+                            <p>Rachel Borshchenko, Associate Copy Editor</p>
+                            <p>Katherine Carraway, Associate Copy Editor</p>
+                            <p>Alia Derriey, Associate Copy Editor</p>
+                            <p>Madison Guzy, Associate Copy Editor</p>
+                            <p>Jacob Kang, Associate Copy Editor</p>
+                            <p>Maria Levit, Associate Copy Editor</p>
+                            <p>Jonah Pitkowsky, Associate Copy Editor</p>
+                            <p>Noyna Roy, Associate Copy Editor</p>
+                            <p>Leif Wood, Associate Copy Editor</p>
+                            <p>Safia Aladlouni, Preslotter</p>
+                            <p>Adam Burns, Preslotter</p>
+                            <p>Ronit Dhulia, Preslotter</p>
+                            <p>Ana Eveleigh, Preslotter</p>
+                            <p>Emma Grungold, Preslotter</p>
+                            <p>Joyce Liu, Preslotter</p>
+                            <p>Willa Nagy, Preslotter</p>
+                            <p>Grace O’Malley, Preslotter</p>
+                            <p>Maya Platek, Preslotter</p>
+                            <p>Sadie Rochman, Preslotter</p>
+                            <p>Meera Sahney, Preslotter</p>
+                            <p>Yvin Shin, Preslotter</p>
+                            <p>Lanah Wyne, Preslotter</p>
+                            <p>Natarsha Yan, Preslotter</p>
+                            <p>Bonnie Yang, Preslotter</p>
                         </div>
                         <div>
-                            <h3>The Eye</h3>
-                            <p>Claudia Gohn, Managing Editor of The Eye</p>
-                            <p>Cole Cahill, Lead Story Editor</p>
-                            <p>Teresa Lawlor, View from Here Editor</p>
-                            <p>Briani Netzahuatl, Features Editor</p>
-                            <p>Derek Ng</p>
-                            <p>Eve Washington</p>
-                            <p>Cassie Wu</p>
-                        </div>
-                        <div>
-                            <h3>Video</h3>
-                            <p>Ryan Balderas</p>
-                            <p>Caitlin Buckley</p>
+                            <h3>Revenue</h3>
+                            <p>	Haru Yamanaka, Revenue Manager	</p>
+                            <p>Vilanna Wang, Revenue Manager</p>
+                            <p>Rachel Forest, Revenue Manager</p>
+                            <p>Anushka Thorat, Revenue Manager</p>
+                            <p>Suheyla Tozan, Revenue Associate</p>
+                            <p>Kevin Jiang, Revenue Associate</p>
+                            <p>Helen Hung, Revenue Associate</p>
+                            <p>Angela Chea, Revenue Associate</p>
+                            <p>Jamin Feng, Revenue Associate</p>
+                            <p>Tyler Shern, Revenue Associate</p>
+                            <p>Kris Packauskas, Revenue Associate</p>
+                            <p>Lisa Cardoso, Revenue Associate</p>
+                            <p>Ece Hasdemir, Revenue Associate</p>
+                            <p>Ian Civiletti, Revenue Associate</p>
+                            <p>Mike Kim, Revenue Associate</p>
+                            <p>April Lin, Revenue Associate</p>
+                            <p>Amanda Teramihardja, Revenue Associate</p>
                         </div> 
                     </SubDiv>
                 </Row>
