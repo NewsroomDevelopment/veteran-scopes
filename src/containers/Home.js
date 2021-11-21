@@ -146,7 +146,7 @@ const Home = () => (
       content = "GOTTEM"
     />
     <Section id="rotc" header="ROTC" color="#FFECA5" articles={rotc} content = "DEEZ"/>
-    <Section id="podcast" header="podcast" color="#FFECA5" articles={podcast} content ="NUTS"/>
+    <Section id="podcast" header="podcast" color="#FFACA5" articles={podcast} content ="NUTS"/>
     <CreditsSec />
   </>
 );
