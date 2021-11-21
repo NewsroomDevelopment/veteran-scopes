@@ -6,5 +6,5 @@ export const podcast = [
     article_authors: "Annie Cheung",
     article_link:
       "https://www.columbiaspectator.com/podcasts/2021/06/12/when-the-navy-came-to-campus-columbias-navy-rotc-debate/",
-  },
+  }
 ];
