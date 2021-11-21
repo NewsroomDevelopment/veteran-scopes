@@ -143,10 +143,20 @@ const Home = () => (
       header="Military"
       color="#FFC0A5"
       articles={military}
-      content = "GOTTEM"
+      content = "With nearly 450 veterans currently enrolled at Columbia, the University has more veterans than the rest of the schools in the Ivy League combined. Yet, often, these stories of acclimating to college life often go untold, are lost, as a student veteran lives as “just another person in a sea of students on a college campus,” in the words of Kevin Petersen, GS ’22, a former student veterans representative. To highlight the voices of student veterans and to contextualize Columbia students’ attitudes toward the military, Spec Opinion has curated a selection of op-eds and columns that explore the student veteran experience, as well as students’ attitudes toward the relationship between Columbia and the military. "
     />
-    <Section id="rotc" header="ROTC" color="#FFECA5" articles={rotc} content = "DEEZ"/>
-    <Section id="podcast" header="podcast" color="#FFECA5" articles={podcast} content ="NUTS"/>
+    <Section id="rotc" 
+        header="ROTC" 
+        color="#FFECA5" 
+        articles={rotc} 
+        content = "Chronicling students’ attitudes toward the military would not be complete without touching on one of the most contentious moments related to the military on campus: the vote to reinstate the Naval Reserve Officers Training Corps. In 1969, fueled by the antagonistic sentiments toward the Vietnam War, the University voted to end ROTC programming on campus. Over time, alternatives emerged: Crosstown ROTC programs provided Columbia students the opportunity to participate in Army and Air Force ROTC programs at Fordham University and Manhattan College, respectively. But it was not until 2011 that Columbia would offer an ROTC program on campus again. This reversal was not without controversy: Six years prior, a vote to reinstate the Columbia NROTC failed, largely due to criticism that the military’s “don’t ask, don’t tell” policy—which forbade gay, lesbian, and bisexual soldiers from serving openly—violated the University’s anti-discrimination policy."
+    />
+    <Section 
+        id="podcast" 
+        header="podcast" 
+        color="#FFECA5" 
+        articles={podcast} 
+        />
     <CreditsSec />
   </>
 );

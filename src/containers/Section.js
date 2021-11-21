@@ -63,17 +63,11 @@ const MobileNavWrap = styled.div`
         }
 `;
 
-const TextStyle = styled.p`
-    
-`;
-const Content = styled.text`
-font-weight: 500;
-fill: white;
-letter-spacing: .1rem;
-
-:hover {
-    font-weight: bold;
-}
+const Content = styled.p`
+    font-weight: 650;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
 `;
 
 const Section = ( { id, articles, header, color, content } ) => {
