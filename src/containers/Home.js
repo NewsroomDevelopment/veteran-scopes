@@ -145,10 +145,6 @@ const Home = () => (
       articles={military}
       content = "With nearly 450 veterans currently enrolled at Columbia, the University has more veterans than the rest of the schools in the Ivy League combined. Yet, often, these stories of acclimating to college life often go untold, are lost, as a student veteran lives as “just another person in a sea of students on a college campus,” in the words of Kevin Petersen, GS ’22, a former student veterans representative. To highlight the voices of student veterans and to contextualize Columbia students’ attitudes toward the military, Spec Opinion has curated a selection of op-eds and columns that explore the student veteran experience, as well as students’ attitudes toward the relationship between Columbia and the military. "
     />
-<<<<<<< HEAD
-    <Section id="rotc" header="ROTC" color="#FFECA5" articles={rotc} content = "DEEZ"/>
-    <Section id="podcast" header="podcast" color="#FFACA5" articles={podcast} content ="NUTS"/>
-=======
     <Section id="rotc" 
         header="ROTC" 
         color="#FFECA5" 
@@ -161,7 +157,6 @@ const Home = () => (
         color="#FFECA5" 
         articles={podcast} 
         />
->>>>>>> 21a86b098b8280db0a8d993f39a5df20a5adf2f6
     <CreditsSec />
   </>
 );
