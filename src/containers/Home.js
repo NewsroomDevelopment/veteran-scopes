@@ -14,7 +14,8 @@ import { rotc } from '../data/rotc';
 import { podcast } from "../data/podcast";
 
 const Wrapper1 = styled.div`
-    background: url(https://backtocampus.s3.amazonaws.com/low_steps.jpg) rgba(37, 18, 130, .45);
+    background: url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UMVIBIZZ3JANNKXMJT2R4HYEFI.jpg) rgba(37, 18, 130, .45);
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WSM5RSLH2NEA7ERDHO5EKVI2M4.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
@@ -25,7 +26,7 @@ const Wrapper1 = styled.div`
     }
 
     @media ${device.laptopS} {
-        background: #251282;
+        background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WSM5RSLH2NEA7ERDHO5EKVI2M4.jpg);
         height: fit-content;
     }
 `;
@@ -48,20 +49,17 @@ const Welcome = styled.h1`
     color: white;
     letter-spacing: 1rem;
     font-size: 2.5rem;
-
     @media ${device.tablet} {
         font-size: 3rem;
-        letter-spacing: 4.5rem;
+        letter-spacing: 2rem;
     }
-
     @media ${device.laptopS} {
         font-size: 5rem;
         position: absolute;
         margin-left: 5vw;
         margin-top: 1rem;
-        letter-spacing: 6rem;
+        letter-spacing: 2rem;
     }
-
     @media ${device.laptop} {
         font-size: 7rem;
     }
@@ -71,46 +69,20 @@ const Back = styled.h1`
     color: white;
     font-size: 2.5rem;
     letter-spacing: .75rem;
-
     @media ${device.tablet} {
         font-size: 3rem;
-        letter-spacing: 4rem;
+        letter-spacing: 2rem;
     }
-
     @media ${device.laptopS} {
         font-size: 5rem;
-        margin-top: 25rem;
+        margin-top: 15rem;
         position: absolute;
         margin-left: 55vw;
-        letter-spacing: 5rem;
+        letter-spacing: 2rem;
     }
-
     @media ${device.laptop} {
         font-size: 7rem;
-        margin-top: 30rem;
-    }
-`;
-
-const Explore = styled.h1`
-    color: white;
-    font-size: .75rem;
-
-    @media ${device.tablet} {
-        font-size: 1rem;
-        margin-right: 4rem;
-    }
-
-    @media ${device.laptopS} {
-        font-size: 1rem;
-        margin-right: inherit;
-        margin-top: 32rem;
-        position: absolute;
-        margin-left: 70vw;
-    }
-
-    @media ${device.laptop} {
-        font-size: 1rem;
-        margin-top: 39rem;
+        margin-top: 27rem;
     }
 `;
 
@@ -129,9 +101,8 @@ const Home = () => (
     <Wrapper1 id="home">
       <NavBar />
       <TextWrapper>
-        <Welcome>WELCOME</Welcome>
-        <Back>BACK</Back>
-        <Explore>Explore Spectator's Back to Campus Issue</Explore>
+        <Welcome>VETERANS</Welcome>
+        <Back>SCOPES</Back>
         <MobileNavWrap>
           <VerticalNav color="white" current="home" />
         </MobileNavWrap>
@@ -153,7 +124,7 @@ const Home = () => (
     />
     <Section 
         id="podcast" 
-        header="podcast" 
+        header="Podcast" 
         color="#FFECA5" 
         articles={podcast} 
         />
