@@ -30,25 +30,22 @@ const MobileNavBar = ({color, current}) => {
             <a href="/#home">
                         <NavText x="0" y="5" color={color} current={current === "home"}>HOME</NavText>
                 </a>
-                <a href="/#student_life">
+                <a href="/#military">
                         <NavText x="50" y="30" color={color} current={current === "student_life"}>
-                            <tspan x="50" dy="1.2em">STUDENT</tspan> 
-                            <tspan x="50" dy="1.2em">LIFE</tspan></NavText>
-                </a>
-                <a href="/#on_campus">
-                        <NavText x="105" y="5" color={color} current={current === "on_campus"}> 
-                            ON CAMPUS
-                        </NavText>
-                </a>
-                <a href="/#beyond_campus">
-                        <NavText x="170" y="15" color={color} current={current === "beyond_campus"}>
-                            <tspan x="170" dy="1.2em">BEYOND</tspan> 
-                            <tspan x="170" dy="1.2em">CAMPUS</tspan>
+                            <tspan x="50" dy="1.2em">MILITARY</tspan> 
                             </NavText>
                 </a>
-                <a href="/#resources">
-                        <NavText x="250" y="15" color={color} current={current === "resources"}>RESOURCES</NavText>
+                <a href="/#rotc">
+                        <NavText x="105" y="5" color={color} current={current === "on_campus"}> 
+                            ROTC
+                        </NavText>
                 </a>
+                <a href="/#podcast">
+                        <NavText x="170" y="15" color={color} current={current === "beyond_campus"}>
+                            <tspan x="170" dy="1.2em">PODCAST</tspan> 
+                            </NavText>
+                </a>
+
                 <a href="/#credits">
                         <NavText x="300" y="50" color={color} current={current === "credits"}>
                             CREDITS

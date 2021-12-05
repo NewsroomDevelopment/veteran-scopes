@@ -31,15 +31,15 @@ const NavBar = ({color, current}) => {
                         <NavText x="0" y="-10" color={color} current={current === "home"}>HOME</NavText>
                 </a>
                 <a href="/#military">
-                        <NavText x="25" y="90" color={color} current={current === "student_life"}>
+                        <NavText x="25" y="90" color={color} current={current === "military"}>
                             <tspan x="25" dy="1.2em">MILITARY</tspan> </NavText>
                 </a>
                 <a href="/#rotc">
-                        <NavText x="-55" y="180" color={color} current={current === "on_campus"}>
+                        <NavText x="-55" y="180" color={color} current={current === "rotc"}>
                             <tspan x="-25" dy="1.2em">ROTC</tspan></NavText>
                 </a>
                 <a href="/#podcast">
-                        <NavText x="15" y="290" color={color} current={current === "beyond_campus"}>
+                        <NavText x="15" y="290" color={color} current={current === "podcast"}>
                             <tspan x="15" dy="1.2em">PODCAST</tspan> </NavText>
                 </a>
                 <a href="/#credits">
