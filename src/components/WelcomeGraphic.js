@@ -61,12 +61,9 @@ const WelcomeGraphic = () => {
                     <path d="M6 58.6785C6 58.6785 30.6615 121.784 69 137.46C142.229 167.401 128.172 -2.51782 208.5 1.05562C259.955 3.34461 268.608 61.3013 320 64.5308C374.794 67.9741 447 22 447 22" stroke="white"/>
                     <circle r="5.5" transform="matrix(-1 0 0 1 5.5 57.5)" fill="white"/>
                 </Swirly>
-                <Swirly width="433" height="300" viewBox="0 -30 433 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <Swirly width="450" height="300" viewBox="0 -30 433 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <a href="/#podcast">
-                        <NavText x="20" y="-10" fill="white">PODCAST</NavText> 
-                    </a>
-                    <a href="/#credits">
-                        <NavText x="350" y="125" fill="white">CREDITS</NavText> 
+                        <NavText x="350" y="125" fill="white">PODCAST</NavText> 
                     </a>
                     <path d="M396.5 99.5C396.5 99.5 391 64 353.392 68.9364C315.784 73.8728 288.448 154.082 239.409 146.523C190.369 138.963 181.092 37.9019 141.772 8.45882C102.452 -20.9842 1 50 1 50" stroke="white"/>
                     <ellipse rx="5.5" ry="5.3597" transform="matrix(-1 0 0 1 397.5 101.36)" fill="white"/>

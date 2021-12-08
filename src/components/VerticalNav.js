@@ -39,12 +39,8 @@ const NavBar = ({color, current}) => {
                             <tspan x="-25" dy="1.2em">ROTC</tspan></NavText>
                 </a>
                 <a href="/#podcast">
-                        <NavText x="15" y="290" color={color} current={current === "podcast"}>
-                            <tspan x="15" dy="1.2em">PODCAST</tspan> </NavText>
-                </a>
-                <a href="/#credits">
-                        <NavText x="10" y="512" color={color} current={current === "credits"}>
-                            CREDITS
+                        <NavText x="10" y="512" color={color} current={current === "podcast"}>
+                            PODCAST
                         </NavText>
                 </a>
                 <path d="M36.401 491.964C36.401 491.964 24.977 488.792 26.5656 467.102C28.1541 445.411 53.9659 429.645 51.5331 401.362C49.1004 373.079 25.7918 357.87 7.27808 336.242C-11.2356 314.614 17.0929 258.093 17.0929 258.093" stroke={color}/>

@@ -32,21 +32,21 @@ export const military = [
     article_link: "",
   },
   {
-    image_url: "",
+    image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KH5RRJ5UINDNNOWCJCEWA7BIEQ.jpg",
     article_title:
-      "A Department of Defense-Columbia Path to Forever Sustainability?",
+      "A surprising academic defense to combat climate change",
     article_authors: "Sean Conlon",
-    article_link: "",
+    article_link: "https://www.columbiaspectator.com/opinion/2021/11/15/a-surprising-academic-defense-to-combat-climate-change/",
   },
   {
-    image_url: "",
+    image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2FQTFGXLIZBB5M67Y3XWHIVRIM.jpg",
     article_title: "Forgetting war and peace issues",
     article_authors: "Sam Klug",
     article_link:
       "https://www.columbiaspectator.com/2010/10/06/forgetting-war-and-peace-issues/",
   },
   {
-    image_url: "",
+    image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LHSXT6C3DVFUPNNCRQD6Z7LUK4.jpg",
     article_title: "Don’t ask, don’t tell was a blessing in disguise",
     article_authors: "Yasmeen Ar-Rayani",
     article_link:
@@ -68,7 +68,7 @@ export const military = [
       "https://www.columbiaspectator.com/2007/03/19/bringing-military-columbia/",
   },
   {
-    image_url: "",
+    image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/V5XRA5NE7NEHLDE4XQ7LEPYHBY.jpg",
     article_title: "No shame in service",
     article_authors: "Sean Wilkes",
     article_link:

@@ -26,7 +26,7 @@ const NavText = styled.text`
 const MobileNavBar = ({color, current}) => {
     return (
         <NavWrap>
-            <Swirly width="360" height="100" viewBox="0 -30 360 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <Swirly width="400" height="100" viewBox="0 -30 360 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <a href="/#home">
                         <NavText x="0" y="5" color={color} current={current === "home"}>HOME</NavText>
                 </a>
@@ -41,14 +41,8 @@ const MobileNavBar = ({color, current}) => {
                         </NavText>
                 </a>
                 <a href="/#podcast">
-                        <NavText x="170" y="15" color={color} current={current === "beyond_campus"}>
-                            <tspan x="170" dy="1.2em">PODCAST</tspan> 
-                            </NavText>
-                </a>
-
-                <a href="/#credits">
-                        <NavText x="300" y="50" color={color} current={current === "credits"}>
-                            CREDITS
+                        <NavText x="300" y="50" color={color} current={current === "podcast"}>
+                            PODCAST
                         </NavText>
                 </a>
                 <path d="M331.568 31.726C331.568 31.726 329.44 21.8106 314.884 23.1894C300.328 24.5682 289.747 46.9712 270.767 44.8597C251.786 42.7483 241.58 22.5178 227.066 6.449C212.552 -9.61981 174.621 14.9677 174.621 14.9677" stroke={color} />

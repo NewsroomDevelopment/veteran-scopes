@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const ArticleWrap = styled.div`
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    width: 15rem;
     border: 3px solid #251282;
     background: white;
     margin: 1rem;
