@@ -2,11 +2,12 @@
 export const military = [
   {
     image_url:
-      "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WIUXZQFBPVA3JNOTH46T4SA22U.jpg",
+      "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WKZWQTETGRGLBJQYX2EEEDQDHE.jpg",
     article_title:
       "The student veteran dilemma: the difficulty of finding a new community after leaving another one behind.",
-    article_authors: "",
-    article_link: "",
+    article_authors: "Kevin Petersen",
+    article_link:
+      "https://www.columbiaspectator.com/opinion/2021/11/11/the-student-veteran-dilemma-the-difficulty-of-finding-a-new-community-after-leaving-one-behind/",
   },
   {
     image_url:
@@ -26,17 +27,19 @@ export const military = [
   },
   {
     image_url:
-      "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XHIIDEE7SNF5BFRE64N77VWW3I.jpg",
-    article_title: "Woman’s veteran piece",
-    article_authors: "",
-    article_link: "",
+      "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KSRNBP4LC5CMLMXWVIL34X7QZQ.jpg",
+    article_title: "We served too",
+    article_authors: "Ebonnie Goodfield",
+    article_link:
+      "https://www.columbiaspectator.com/opinion/2021/11/16/we-served-too-on-the-experiences-of-female-veterans/",
   },
   {
-    image_url: "",
-    article_title:
-      "A Department of Defense-Columbia Path to Forever Sustainability?",
+    image_url:
+      "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KH5RRJ5UINDNNOWCJCEWA7BIEQ.jpg",
+    article_title: "A surprising academic defense to combat climate change",
     article_authors: "Sean Conlon",
-    article_link: "",
+    article_link:
+      "https://www.columbiaspectator.com/opinion/2021/11/15/a-surprising-academic-defense-to-combat-climate-change/",
   },
   {
     image_url: "",

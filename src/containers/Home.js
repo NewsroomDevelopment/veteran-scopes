@@ -19,15 +19,14 @@ const Wrapper1 = styled.div`
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
-    height: 150vh;
+    height: 100vh;
 
     @media ${device.tablet} {
-        height: 175vh;
+        height: 100vh;
     }
 
     @media ${device.laptopS} {
         background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WSM5RSLH2NEA7ERDHO5EKVI2M4.jpg);
-        height: fit-content;
     }
 `;
 
@@ -101,8 +100,8 @@ const Home = () => (
     <Wrapper1 id="home">
       <NavBar />
       <TextWrapper>
-        <Welcome>VETERANS</Welcome>
-        <Back>SCOPES</Back>
+        <Welcome>MILITARY</Welcome>
+        <Back>SCOPE</Back>
         <MobileNavWrap>
           <VerticalNav color="white" current="home" />
         </MobileNavWrap>

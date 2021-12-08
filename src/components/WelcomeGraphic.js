@@ -56,7 +56,7 @@ const WelcomeGraphic = () => {
                         <NavText x="110" y="145">MILITARY</NavText>
                     </a>
                     <a href="/#rotc">
-                        <NavText x="210" y="-10" fill="white">ROTC</NavText>
+                        <NavText x="300" y="-10" fill="white">ROTC</NavText>
                     </a>
                     <path d="M6 58.6785C6 58.6785 30.6615 121.784 69 137.46C142.229 167.401 128.172 -2.51782 208.5 1.05562C259.955 3.34461 268.608 61.3013 320 64.5308C374.794 67.9741 447 22 447 22" stroke="white"/>
                     <circle r="5.5" transform="matrix(-1 0 0 1 5.5 57.5)" fill="white"/>
