@@ -124,10 +124,9 @@ const Home = () => (
     <Section 
         id="podcast" 
         header="Podcast" 
-        color="#FFECA5" 
+        color="#89CFF0" 
         articles={podcast} 
         />
-    <CreditsSec />
   </>
 );
 

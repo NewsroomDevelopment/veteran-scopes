@@ -25,11 +25,11 @@ const Header = styled.h1`
 
     @media ${device.tablet} {
         font-size: 3rem;
-        letter-spacing: 1rem;
+        letter-spacing: .5rem;
     }
 
     @media ${device.laptopS} {
-        letter-spacing: 2rem;
+        letter-spacing: .5rem;
     }
 `;
 
@@ -44,15 +44,15 @@ const NavWrap = styled.div`
 
     @media ${device.tablet} {
         display: inherit;
-        padding-bottom: 10rem;
+        padding-bottom: 0rem;
     }
 
     @media ${device.laptopS} {
-        padding-bottom: 15rem;
+        padding-bottom: 0rem;
     }
 
     @media ${device.laptop} {
-        padding-bottom: 20rem;
+        padding-bottom: 0rem;
     }
 `;
 
