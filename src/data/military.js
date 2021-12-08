@@ -66,8 +66,7 @@ export const military = [
       "https://www.columbiaspectator.com/2009/09/07/important-names-we-never-hear/",
   },
   {
-    image_url:
-      "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2F56SNGY2RCD3HBLVET4IED2QE.jpg",
+    image_url: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2F56SNGY2RCD3HBLVET4IED2QE.jpg",
     article_title: "Bringing the Military to Columbia",
     article_authors: "Matt Sanchez",
     article_link:
