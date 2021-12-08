@@ -14,7 +14,7 @@ const Swirly = styled.svg`
 
 const NavText = styled.text`
     font-weight: ${props => props.current ? 'bold': 500};
-    font-size: .70rem;
+    font-size: .60rem;
     letter-spacing: .1rem;
     fill: ${props => props.color };
 
@@ -26,7 +26,7 @@ const NavText = styled.text`
 const MobileNavBar = ({color, current}) => {
     return (
         <NavWrap>
-            <Swirly width="400" height="100" viewBox="0 -30 360 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <Swirly width="360" height="100" viewBox="0 -30 360 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <a href="/#home">
                         <NavText x="0" y="5" color={color} current={current === "home"}>HOME</NavText>
                 </a>
